@@ -1,0 +1,5 @@
+book_filename: "Teste"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Chapter "
