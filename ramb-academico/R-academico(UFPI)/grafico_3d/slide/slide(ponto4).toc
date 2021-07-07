@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {brazil}
+\beamer@sectionintoc {1}{No\IeC {\c c}\IeC {\~o}es Sobre Valor Esperado ou Esperan\IeC {\c c}a Matem\IeC {\'a}tica e Vari\IeC {\^a}ncia}{3}{0}{1}
+\beamer@sectionintoc {2}{Esperan\IeC {\c c}a matem\IeC {\'a}tica e suas propriedades}{8}{0}{2}
+\beamer@sectionintoc {3}{Esperan\IeC {\c c}a condicional}{15}{0}{3}

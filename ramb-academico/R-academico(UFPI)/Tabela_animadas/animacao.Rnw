@@ -1,0 +1,65 @@
+\documentclass[a4paper]{article}
+\usepackage[brazil]{babel}
+\usepackage{Sweave}
+\usepackage{animate}
+\thispagestyle{empty}
+ 
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+ 
+\begin{center}
+{\Large Tabela da distribui\c{c}\~{a}o normal padr\~{a}o}\\ \vspace{2ex}
+{\large Ben D\^eivide -- DEFIM/UFSJ}  \\
+\end{center}
+ 
+<<echo=false, results=hide>>=
+#-----------------------------------------------------------------------------
+dir.create("normalpadrao")
+png(file="normalpadrao/normal%1d.png", width=500, height=250)
+par(mar=c(4,4,1,1))
+for(q in seq(0, 4,l=100)){
+  curve(dnorm(x, 0, 1), -5, 5, ylab="f(z)", xlab="z")
+  x <- seq(0, q, by=0.01)
+  fx <- dnorm(x, 0, 1)
+  polygon(c(x, rev(x)),
+          c(fx, rep(0, length(fx))),
+          col="gray90")
+  abline(v=0, lty=2)
+  qq <- round(q, digits=2)
+  Pr <- round(0.5 - pnorm(qq, 0, 1, lower.tail = F), digits=5)
+  Pr <- gsub("\\.", ",", Pr)
+  qq <- gsub("\\.", ",", qq)
+  legend("topleft", bty="n", fill="gray90",
+         legend=substitute(P(r<~Z<~q)==Pr, list(q=qq, Pr=Pr, r = 0)))
+}
+dev.off()
+#-----------------------------------------------------------------------------
+@ 
+ 
+<<echo=false, results=hide>>=
+#-----------------------------------------------------------------------------
+require(xtable)
+options(OutDec=",")
+q <- seq(0,3.99,by=0.01)
+p <- 0.5 - pnorm(q, lower.tail = F)
+m <- matrix(p, byrow=TRUE, ncol=10)
+rownames(m) <- gsub("\\.", ",", formatC(seq(0,3.9,0.1), dig=1, format="f"))
+colnames(m) <- 0:9/100
+#-----------------------------------------------------------------------------
+@
+ 
+\begin{center}
+\animategraphics[controls, loop, width=0.75\textwidth]{10}{./normalpadrao/normal}{24}{100}
+\end{center}
+ 
+\begin{center}
+\small\addtolength{\tabcolsep}{-3pt}
+{\footnotesize
+<<echo=false, results=tex>>=
+#-----------------------------------------------------------------------------
+print(xtable(m, digits=5), floating=FALSE)
+#-----------------------------------------------------------------------------
+@ 
+}
+\end{center}
+\end{document}

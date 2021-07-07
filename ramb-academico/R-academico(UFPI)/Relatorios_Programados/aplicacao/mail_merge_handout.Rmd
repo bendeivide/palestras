@@ -1,0 +1,17 @@
+---
+output: pdf_document
+---
+ 
+```{r echo=FALSE}
+professores <- read.csv("professores.csv", stringsAsFactors = FALSE, sep = ";", header = TRUE)
+name <- professores$professor[i]
+sala <- professores$sala[i]
+email <- professores$email[i]
+area <- professores$area[i]
+```
+ 
+# Informações Gerais dos Professores do DEFIM/UFSJ
+
+Informamos que o Professor(a) `r name`, possui e-mail `r email`, atua na área de
+`r area`. Sua sala é `r sala`, Campus Alto Paraopeba.
+ 
