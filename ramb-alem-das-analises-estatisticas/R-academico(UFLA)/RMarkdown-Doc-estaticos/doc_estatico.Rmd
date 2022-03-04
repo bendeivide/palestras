@@ -1,0 +1,40 @@
+---
+title: "Exemplo de Documento Estático (Programa de verão - DES/UFLA)"
+author: "Ben Dêivide (DEFIM/UFLA)"
+date: "07-03-2022"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Escrevendo em Latex
+
+Uma fórmula $f_X(x)$
+
+## Escrevendo em HTML
+
+<center>
+Um texto centralizado!
+</center>
+
+## Escrevendo em R
+
+```{r}
+plot(1:10)
+```
+
+## Escrevendo em Python
+
+```{python}
+var = 'Ola, Mundo!'  # Exemplo de comentário 1
+print(var)  # Exemplo de comentário 2
+```
+
+
+
+
+

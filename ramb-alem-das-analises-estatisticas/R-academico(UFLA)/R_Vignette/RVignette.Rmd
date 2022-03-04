@@ -1,0 +1,262 @@
+---
+title: "MCPTests Package"
+author: "Diego Arthur Ben Deivide"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Desenvolvimento dos elementos da interface
+
+
+-------------------------------------------
+**Algoritmo 1:** Janela Principal ( tktoplevel)
+-------------------------------------------
+
+
+~~~ Tcl/Tk
+1: mcpprincipal <- tktoplevel( 
+2: width = 800,
+3: height = 600
+4: )
+~~~
+
+
+
+---------------------------------------------------
+**Algoritmo 2:** Widget flexível ( ttkpanedwindow () )
+---------------------------------------------------
+
+~~~ Tcl/Tk
+1: group.all <- ttkpanedwindow(mcpprincipal, orient = "horizontal")
+2: tkpack(group.all, expand = TRUE, fill = "both")
+~~~
+
+
+---------------------------------------------------
+**Algoritmo 3:** Widget Frame ( ttkframe )
+
+---------------------------------------------------
+
+~~~ Tcl/Tk
+1: tkpack(fentry <- ttkframe(child1.group1, relief = "sunken"), anchor = "n",
+2: expand = TRUE, fill = "x")
+
+~~~
+
+
+---------------------------------------------------
+**Algoritmo 4:** Componente Label (tklabel)
+
+---------------------------------------------------
+
+~~~ Tcl/Tk
+1: tkpack(tklabel(text = gettext("Enter the data file (.txt or .csv)",
+2: parent = child1.group1),
+3: anchor = "nw", padx = 2, pady = 2,
+4: expand = TRUE, fill = "x")
+
+~~~
+
+
+
+---------------------------------------------------
+**Algoritmo 5:** Componente Entrada (ttkentry)
+---------------------------------------------------
+
+~~~ Tcl/Tk
+1: tkpack(entry <- ttkentry(parent = fentry,
+2: textvariable = txtvar, width = 10),
+3: anchor = "nw", padx = "1m", ipadx = "2m", side = "left",
+4: expand = TRUE, fill = "x")
+~~~
+
+
+
+---------------------------------------------------
+**Algoritmo 6:** Componente Botão (tkbutton)
+---------------------------------------------------
+
+~~~ Tcl/Tk
+1: tkpack(bentry <- tkbutton(parent = fentry,
+2: text = gettext("browse", domain = "R-MCP")),
+3: anchor = "nw")
+
+~~~
+
+
+
+---------------------------------------------------
+**Algoritmo 7:** Componente caixa de seleção tkcheckbutton
+---------------------------------------------------
+
+~~~ Tcl/Tk
+1: tkpack(groupcbox1 <- ttkcheckbutton(parent = groupcbox,
+2: text = gettext("Comma as decimal points", domain = "R-MCP"),
+3: variable = resp, onvalue = "TRUE", offvalue = "FALSE"),
+4:anchor = "nw", padx = "2m", side = "left")
+
+~~~
+
+
+---------------------------------------------------
+**Algoritmo 8:** Componente LabelFrame (ttklabelframe)
+---------------------------------------------------
+
+~~~ Tcl/Tk
+1: tkpack(frame.output <- ttklabelframe(text = gettext("Output:",
+2: domain = "R-MCP"), parent = child1.group1, width = 40, height = 40),
+3: side = "top", anchor = "nw", expand = TRUE, fill = "x")
+~~~
+
+
+
+---------------------------------------------------
+**Algoritmo 9:** Componente Caixa de Combinação (ttkcombobox)
+---------------------------------------------------
+
+~~~ Tcl/Tk
+1: entry.exp <- c("MGM", "MGR", "SNKM", "TM")
+2: vari <- tclVar(entry.exp[1])
+3: tkpack(testsboxgroup <- ttkcombobox(parent = group.input.top,
+4: textvariable = vari, state = "normal", justify = "left"),
+5: side = "left", anchor = "nw", padx = "1m")
+~~~
+
+
+
+
+
+## Interface do pacote MCPTests
+
+![ Pacote MCP ; Versão 1.0](./img/img11.png){width=100%}
+
+
+### Entrada conjunto de dados e outras funções
+
+Estas funções se encontram na parte de Menu da interface. Este menu possui as opções "File"e
+"Edit". Na opção "File"encontra-se as opções de "Escolha do diretório"e "Entrada de dados". Já no "Edit"há
+a opção "edição do conjunto de dados".
+
+#### File → Choose directoy: 
+o primeiro passo para a análise dos dados é a escolha do diretório(pasta) para que o conjunto de dados analisados seja exportado para este local, sendo ele de variados tipos de
+extensões que apresentaremos aqui.
+
+![Escolha do diretório](./img/video1.gif){width=100%}
+
+#### File → Open file (.txt or .csv): 
+o segundo passo é a seleção do tipo de separador de variáveis do seu conjunto de dados. Exemplo: caso as suas variáveis do conjunto seja separado por ","ou ";"terá que
+ser determinado, caso contrário, o programa não reconhecerá. O sistema de norma internacional utiliza o
+"."como separador padrão, então, neste caso, não terá a necessidade da escolha do tipo.
+
+
+![Separador de variáveis](./img/video2.gif){width=100%}
+
+
+#### File → Open file (.txt or .csv) → Enter the data : 
+o passo seguinte é a importação do conjunto de
+dados que podem ser do tipo .txt ou .csv. Uma vez importado, para que o seu conjunto de dados esteja
+correto, terá que aparecer na primeira linha os nomes das variáveis que foram atribuídos para cada coluna.
+
+
+![Importação do conjunto de dados](./img/video3.gif){width=100%}
+
+
+#### Edit → Data set...: 
+caso haja a necessidade de edição de algum dado, a opção "Edit/Data set"proporcionará
+isso. Mas atenção, esta edição só será feita dentro do programa e não no arquivo de origem.
+
+
+![Tabela de edição de dados](./img/video4.gif){width=100%}
+
+
+
+### Saída de dados
+
+Aqui é apresentado o caminho da pasta de origem de onde o conjunto de dados foi importado, a
+discriminação das colunas do conjunto por meio dos nomes dados dentro do arquivo.
+
+![Saída de dados](./img/video5.gif){width=100%}
+
+
+### Testes e Extensão
+Antes da entrada de dados essencias para a análise do conjunto, é determinado o tipo de teste que será realizado e que por enquanto são ’MGM’,’MGR’,’SNKM’ e TM. O tipo da extensão para a exportação do conjunto de dados analisados tem que ser definido também, sendo eles ’txt’, ’xlsx’, ’csv’ e ’latex’. Ressaltando que a extensão do tipo ’latex’ é o único que não é direcionado para o diretório escolhido, pois é mostrado na tela do console que será explicado em breve.
+
+![Testes e Extensão](./img/video6.gif){width=100%}
+
+### Opções de entrada de dados e Nível de significância
+O nível de significância da análise dos dados tem que ser definido, mas por padrão é 0.05.
+As opções de entrada de dados é a que determina a forma como será calculado o teste escolhido e,
+por ter mais escolhas de entrada, é o grande diferencial deste programa para outros existentes.
+A primeira opção denominada como ’Modelo’ é a mais comum, pois todos os dados para a análise
+devem ser fornecidas, sendo elas contidas no arquivo.
+As outras opções de entrada como a ’Variável Resposta’ e ’Médias’ traz uma possibilidade de proteção aos dados, caso a seguinte situação seja de não querer fornecer o conhecimento do Modelo do conjunto,
+mas a de ter algumas e principais informações do experimento. A Variável Resposta é para o caso em
+que, por exemplo, apenas for repassado o conjunto de dados em que o objeto foi o TRAT(tratamento) e
+PROD(variável resposta). Sendo assim, o valor de grau de liberdade e quadrado médio terão que ser inseridos. Já o caso da opção de entrada ’Médias’ é usado quando o PROD e TRAT não são informados, sendo
+assim, dando a possibilidade de inserção de outros dados para a análise como as médias, o tratamento, o grau
+de liberdade, o quadrado médio e o número de repetição do conjunto.
+
+
+![ Opções de entrada de dados e Nível de significância](./img/video7.gif){width=100%}
+### Console
+Após clicar o botão Calcular, os dados de análise do conjunto serão mostrados no Console. Serão
+exibidos o sumário, o resultado do teste, a média do experimento, o coeficiente de variação, o quadrado
+médio do resíduo, os graus de liberdade e, caso a Extensão de Saída esteja como latex, o código do mesmo
+será exibido também no console.
+
+![Console](./img/video8.gif){width=100%}
+
+
+### Save e funções (Gráfico)
+
+
+![Save e funções (Gráfico)](./img/video9.gif){width=100%}
+
+
+### Parâmetros Gráficos
+Esta função traz a possibilidade de atualização de três componentes relacionados ao gráfico. O primeiro componente é a mudança de cor que pode ser mudada para cinza com o seguinte comando ’gray.color(4)’,
+por exemplo. Já o segundo componente é a mudança de sentido dos eixos do gráfico sendo ela na Vertical
+(padrão) ou Horizontal, definindo isso com o comando de ’FALSE’ ou ’TRUE’. O terceiro componente é a
+opção de nomear os eixos do gráfico e isso é feito com o seguinte comando ’xlab = "VR"; ylab = "Tratamento"’, sendo o xlab responsável por nomear o eixo X e o ylab pelo o eixo Y.
+
+![Parâmetros Gráficos](./img/video10.gif){width=100%}
+
+
+<!--
+# EXEMPLO DE CÓDIGO EM BLOCO
+
+~~~javascript
+Esta é uma linha de código em Javascript.
+~~~
+
+~~~php
+Esta é uma linha de código em PHP.
+~~~
+
+~~~html
+Esta é uma linha de código em HTML.
+~~~
+
+
+
+
+
+# EXEMPLO DE TABELA
+Exemplo   | Valor do exemplo
+--------- | ------
+Exemplo 1 | R$ 10
+Exemplo 2 | R$ 8
+Exemplo 3 | R$ 7
+Exemplo 4 | R$ 8
+-->

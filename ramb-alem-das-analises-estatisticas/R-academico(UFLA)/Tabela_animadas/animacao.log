@@ -1,0 +1,753 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.18)  23 JUN 2021 05:36
+entering extended mode
+**./animacao.tex
+(animacao.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-08-07>
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\article.cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2020/07/13 3.47 The Babel package
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2020/07/13 3.47 Babel common definitions
+\babel@savecnt=\count176
+\U@D=\dimen135
+\l@babelnohyphens=\language84
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count177
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/babel-portuges\brazil.ldf"
+Language: portuges 2020/05/04 v1.2r Portuguese support from the babel system
+Package babel Info: \l@brazil = using hyphenrules for portuguese
+(babel)             (\language61) on input line 111.
+Package babel Info: Making " an active character on input line 143.
+))
+(Sweave.sty
+Package: Sweave 
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/fancyvrb\fancyvrb.sty"
+Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count178
+\FV@InFile=\read3
+\FV@TabBox=\box45
+\c@FancyVerbLine=\count179
+\FV@StepNumber=\count180
+\FV@OutFile=\write3
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\textcomp.sty"
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/ae\ae.sty"
+Package: ae 2001/02/12 1.3 Almost European Computer Modern
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)))
+("C:\Program Files\MiKTeX 2.9\tex/latex/animate\animate.sty"
+Package: animate 2020/08/04 PDF & SVG animations from files and inline graphics
+
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.tex"
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+)
+\XKV@depth=\count181
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/iftex\iftex.sty"
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\ifdraft.sty"
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count182
+\calc@Bcount=\count183
+\calc@Adimen=\dimen138
+\calc@Bdimen=\dimen139
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count184
+\calc@Cskip=\skip51
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/zref\zref-abspage.sty"
+Package: zref-abspage 2020-05-28 v2.31 Module abspage for zref (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/zref\zref-base.sty"
+Package: zref-base 2020-05-28 v2.31 Module base for zref (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/infwarerr\infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/kvdefinekeys\kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/pdftexcmds\pdftexcmds.sty"
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/etexcmds\etexcmds.sty"
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/auxhook\auxhook.sty"
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 763.
+Package zref Info: New property: default on input line 764.
+Package zref Info: New property: page on input line 765.
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/atbegshi\atbegshi.sty"
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\c@abspage=\count185
+Package zref Info: New property: abspage on input line 66.
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/media9\pdfbase.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
+Package: expl3 2020-08-07 L3 programming layer (loader) 
+
+(C:\Users\MABENLA\AppData\Roaming\MiKTeX\2.9\tex/latex/l3backend\l3backend-pdfm
+ode.def
+File: l3backend-pdfmode.def 2019-04-06 L3 Experimental backend support: PDF mod
+e
+\l__kernel_color_stack_int=\count186
+\l__pdf_internal_box=\box46
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/l3keys2e\l3keys2e.sty"
+Package: l3keys2e 2020-05-15 LaTeX2e option processing using LaTeX3 keys
+)
+Package: pdfbase 2020/07/08 v0.43 driver independent access to low-level PDF fe
+atures
+\g_pbs_page_int=\count187
+\g_pbs_oc_int=\count188
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/ocgx2\ocgbase.sty"
+Package: ocgbase 2019/11/04 v0.17 support package for ocgx2.sty
+\g_ocgbase_nd_int=\count189
+)
+\@anim@box=\box47
+\@anim@measbox=\box48
+\@anim@tmpdima=\dimen140
+\@anim@tmpdimb=\dimen141
+\@anim@num=\count190
+\@anim@curframe=\count191
+\@anim@curframe@zb=\count192
+\@anim@resizeflags=\count193
+\@anim@skipfram=\count194
+\@anim@mulframecnt=\count195
+\@anim@@tmlnfile=\read4
+\@anim@tmpcnt=\count196
+\c@@anim@ltxcnt=\count197
+\@anim@curlayer=\count198
+\@anim@lineno=\count199
+\@anim@curfield=\count266
+\@anim@@resizeflags=\count267
+) (animacao.aux)
+\openout1 = `animacao.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Trying to load font information for T1+aer on input line 7.
+
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/ae\t1aer.fd"
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+)
+("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count268
+\scratchdimen=\dimen142
+\scratchbox=\box49
+\nofMPsegments=\count269
+\nofMParguments=\count270
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count271
+\MPscratchDim=\dimen143
+\MPnumerator=\count272
+\makeMPintoPDFobject=\count273
+\everyMPtoPDFconversion=\toks19
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+\AtBeginShipoutBox=\box50
+
+(animacao-concordance.tex)
+<./normalpadrao/normal24.png, id=2, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal24.png Graphic file (type png)
+<use ./normalpadrao/normal24.png>
+Package pdftex.def Info: ./normalpadrao/normal24.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal24.png> <a0,fr0>
+<./normalpadrao/normal25.png, id=11, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal25.png Graphic file (type png)
+<use ./normalpadrao/normal25.png>
+Package pdftex.def Info: ./normalpadrao/normal25.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal25.png> <a0,fr1>
+<./normalpadrao/normal26.png, id=20, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal26.png Graphic file (type png)
+<use ./normalpadrao/normal26.png>
+Package pdftex.def Info: ./normalpadrao/normal26.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal26.png> <a0,fr2>
+<./normalpadrao/normal27.png, id=29, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal27.png Graphic file (type png)
+<use ./normalpadrao/normal27.png>
+Package pdftex.def Info: ./normalpadrao/normal27.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal27.png> <a0,fr3>
+<./normalpadrao/normal28.png, id=38, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal28.png Graphic file (type png)
+<use ./normalpadrao/normal28.png>
+Package pdftex.def Info: ./normalpadrao/normal28.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal28.png> <a0,fr4>
+<./normalpadrao/normal29.png, id=47, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal29.png Graphic file (type png)
+<use ./normalpadrao/normal29.png>
+Package pdftex.def Info: ./normalpadrao/normal29.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal29.png> <a0,fr5>
+<./normalpadrao/normal30.png, id=56, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal30.png Graphic file (type png)
+<use ./normalpadrao/normal30.png>
+Package pdftex.def Info: ./normalpadrao/normal30.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal30.png> <a0,fr6>
+<./normalpadrao/normal31.png, id=65, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal31.png Graphic file (type png)
+<use ./normalpadrao/normal31.png>
+Package pdftex.def Info: ./normalpadrao/normal31.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal31.png> <a0,fr7>
+<./normalpadrao/normal32.png, id=74, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal32.png Graphic file (type png)
+<use ./normalpadrao/normal32.png>
+Package pdftex.def Info: ./normalpadrao/normal32.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal32.png> <a0,fr8>
+<./normalpadrao/normal33.png, id=83, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal33.png Graphic file (type png)
+<use ./normalpadrao/normal33.png>
+Package pdftex.def Info: ./normalpadrao/normal33.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal33.png> <a0,fr9>
+<./normalpadrao/normal34.png, id=92, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal34.png Graphic file (type png)
+<use ./normalpadrao/normal34.png>
+Package pdftex.def Info: ./normalpadrao/normal34.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal34.png> <a0,fr10>
+<./normalpadrao/normal35.png, id=101, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal35.png Graphic file (type png)
+<use ./normalpadrao/normal35.png>
+Package pdftex.def Info: ./normalpadrao/normal35.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal35.png> <a0,fr11>
+<./normalpadrao/normal36.png, id=110, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal36.png Graphic file (type png)
+<use ./normalpadrao/normal36.png>
+Package pdftex.def Info: ./normalpadrao/normal36.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal36.png> <a0,fr12>
+<./normalpadrao/normal37.png, id=119, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal37.png Graphic file (type png)
+<use ./normalpadrao/normal37.png>
+Package pdftex.def Info: ./normalpadrao/normal37.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal37.png> <a0,fr13>
+<./normalpadrao/normal38.png, id=128, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal38.png Graphic file (type png)
+<use ./normalpadrao/normal38.png>
+Package pdftex.def Info: ./normalpadrao/normal38.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal38.png> <a0,fr14>
+<./normalpadrao/normal39.png, id=137, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal39.png Graphic file (type png)
+<use ./normalpadrao/normal39.png>
+Package pdftex.def Info: ./normalpadrao/normal39.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal39.png> <a0,fr15>
+<./normalpadrao/normal40.png, id=146, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal40.png Graphic file (type png)
+<use ./normalpadrao/normal40.png>
+Package pdftex.def Info: ./normalpadrao/normal40.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal40.png> <a0,fr16>
+<./normalpadrao/normal41.png, id=155, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal41.png Graphic file (type png)
+<use ./normalpadrao/normal41.png>
+Package pdftex.def Info: ./normalpadrao/normal41.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal41.png> <a0,fr17>
+<./normalpadrao/normal42.png, id=164, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal42.png Graphic file (type png)
+<use ./normalpadrao/normal42.png>
+Package pdftex.def Info: ./normalpadrao/normal42.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal42.png> <a0,fr18>
+<./normalpadrao/normal43.png, id=173, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal43.png Graphic file (type png)
+<use ./normalpadrao/normal43.png>
+Package pdftex.def Info: ./normalpadrao/normal43.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal43.png> <a0,fr19>
+<./normalpadrao/normal44.png, id=182, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal44.png Graphic file (type png)
+<use ./normalpadrao/normal44.png>
+Package pdftex.def Info: ./normalpadrao/normal44.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal44.png> <a0,fr20>
+<./normalpadrao/normal45.png, id=191, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal45.png Graphic file (type png)
+<use ./normalpadrao/normal45.png>
+Package pdftex.def Info: ./normalpadrao/normal45.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal45.png> <a0,fr21>
+<./normalpadrao/normal46.png, id=200, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal46.png Graphic file (type png)
+<use ./normalpadrao/normal46.png>
+Package pdftex.def Info: ./normalpadrao/normal46.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal46.png> <a0,fr22>
+<./normalpadrao/normal47.png, id=209, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal47.png Graphic file (type png)
+<use ./normalpadrao/normal47.png>
+Package pdftex.def Info: ./normalpadrao/normal47.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal47.png> <a0,fr23>
+<./normalpadrao/normal48.png, id=218, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal48.png Graphic file (type png)
+<use ./normalpadrao/normal48.png>
+Package pdftex.def Info: ./normalpadrao/normal48.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal48.png> <a0,fr24>
+<./normalpadrao/normal49.png, id=227, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal49.png Graphic file (type png)
+<use ./normalpadrao/normal49.png>
+Package pdftex.def Info: ./normalpadrao/normal49.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal49.png> <a0,fr25>
+<./normalpadrao/normal50.png, id=236, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal50.png Graphic file (type png)
+<use ./normalpadrao/normal50.png>
+Package pdftex.def Info: ./normalpadrao/normal50.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal50.png> <a0,fr26>
+<./normalpadrao/normal51.png, id=245, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal51.png Graphic file (type png)
+<use ./normalpadrao/normal51.png>
+Package pdftex.def Info: ./normalpadrao/normal51.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal51.png> <a0,fr27>
+<./normalpadrao/normal52.png, id=254, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal52.png Graphic file (type png)
+<use ./normalpadrao/normal52.png>
+Package pdftex.def Info: ./normalpadrao/normal52.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal52.png> <a0,fr28>
+<./normalpadrao/normal53.png, id=263, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal53.png Graphic file (type png)
+<use ./normalpadrao/normal53.png>
+Package pdftex.def Info: ./normalpadrao/normal53.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal53.png> <a0,fr29>
+<./normalpadrao/normal54.png, id=272, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal54.png Graphic file (type png)
+<use ./normalpadrao/normal54.png>
+Package pdftex.def Info: ./normalpadrao/normal54.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal54.png> <a0,fr30>
+<./normalpadrao/normal55.png, id=281, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal55.png Graphic file (type png)
+<use ./normalpadrao/normal55.png>
+Package pdftex.def Info: ./normalpadrao/normal55.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal55.png> <a0,fr31>
+<./normalpadrao/normal56.png, id=290, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal56.png Graphic file (type png)
+<use ./normalpadrao/normal56.png>
+Package pdftex.def Info: ./normalpadrao/normal56.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal56.png> <a0,fr32>
+<./normalpadrao/normal57.png, id=299, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal57.png Graphic file (type png)
+<use ./normalpadrao/normal57.png>
+Package pdftex.def Info: ./normalpadrao/normal57.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal57.png> <a0,fr33>
+<./normalpadrao/normal58.png, id=308, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal58.png Graphic file (type png)
+<use ./normalpadrao/normal58.png>
+Package pdftex.def Info: ./normalpadrao/normal58.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal58.png> <a0,fr34>
+<./normalpadrao/normal59.png, id=317, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal59.png Graphic file (type png)
+<use ./normalpadrao/normal59.png>
+Package pdftex.def Info: ./normalpadrao/normal59.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal59.png> <a0,fr35>
+<./normalpadrao/normal60.png, id=326, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal60.png Graphic file (type png)
+<use ./normalpadrao/normal60.png>
+Package pdftex.def Info: ./normalpadrao/normal60.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal60.png> <a0,fr36>
+<./normalpadrao/normal61.png, id=335, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal61.png Graphic file (type png)
+<use ./normalpadrao/normal61.png>
+Package pdftex.def Info: ./normalpadrao/normal61.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal61.png> <a0,fr37>
+<./normalpadrao/normal62.png, id=344, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal62.png Graphic file (type png)
+<use ./normalpadrao/normal62.png>
+Package pdftex.def Info: ./normalpadrao/normal62.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal62.png> <a0,fr38>
+<./normalpadrao/normal63.png, id=353, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal63.png Graphic file (type png)
+<use ./normalpadrao/normal63.png>
+Package pdftex.def Info: ./normalpadrao/normal63.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal63.png> <a0,fr39>
+<./normalpadrao/normal64.png, id=362, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal64.png Graphic file (type png)
+<use ./normalpadrao/normal64.png>
+Package pdftex.def Info: ./normalpadrao/normal64.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal64.png> <a0,fr40>
+<./normalpadrao/normal65.png, id=371, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal65.png Graphic file (type png)
+<use ./normalpadrao/normal65.png>
+Package pdftex.def Info: ./normalpadrao/normal65.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal65.png> <a0,fr41>
+<./normalpadrao/normal66.png, id=380, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal66.png Graphic file (type png)
+<use ./normalpadrao/normal66.png>
+Package pdftex.def Info: ./normalpadrao/normal66.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal66.png> <a0,fr42>
+<./normalpadrao/normal67.png, id=389, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal67.png Graphic file (type png)
+<use ./normalpadrao/normal67.png>
+Package pdftex.def Info: ./normalpadrao/normal67.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal67.png> <a0,fr43>
+<./normalpadrao/normal68.png, id=398, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal68.png Graphic file (type png)
+<use ./normalpadrao/normal68.png>
+Package pdftex.def Info: ./normalpadrao/normal68.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal68.png> <a0,fr44>
+<./normalpadrao/normal69.png, id=407, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal69.png Graphic file (type png)
+<use ./normalpadrao/normal69.png>
+Package pdftex.def Info: ./normalpadrao/normal69.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal69.png> <a0,fr45>
+<./normalpadrao/normal70.png, id=416, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal70.png Graphic file (type png)
+<use ./normalpadrao/normal70.png>
+Package pdftex.def Info: ./normalpadrao/normal70.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal70.png>
+<a0,fr46>
+<./normalpadrao/normal71.png, id=425, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal71.png Graphic file (type png)
+<use ./normalpadrao/normal71.png>
+Package pdftex.def Info: ./normalpadrao/normal71.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal71.png> <a0,fr47>
+<./normalpadrao/normal72.png, id=434, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal72.png Graphic file (type png)
+<use ./normalpadrao/normal72.png>
+Package pdftex.def Info: ./normalpadrao/normal72.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal72.png> <a0,fr48>
+<./normalpadrao/normal73.png, id=443, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal73.png Graphic file (type png)
+<use ./normalpadrao/normal73.png>
+Package pdftex.def Info: ./normalpadrao/normal73.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal73.png> <a0,fr49>
+<./normalpadrao/normal74.png, id=452, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal74.png Graphic file (type png)
+<use ./normalpadrao/normal74.png>
+Package pdftex.def Info: ./normalpadrao/normal74.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal74.png> <a0,fr50>
+<./normalpadrao/normal75.png, id=461, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal75.png Graphic file (type png)
+<use ./normalpadrao/normal75.png>
+Package pdftex.def Info: ./normalpadrao/normal75.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal75.png> <a0,fr51>
+<./normalpadrao/normal76.png, id=470, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal76.png Graphic file (type png)
+<use ./normalpadrao/normal76.png>
+Package pdftex.def Info: ./normalpadrao/normal76.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal76.png> <a0,fr52>
+<./normalpadrao/normal77.png, id=479, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal77.png Graphic file (type png)
+<use ./normalpadrao/normal77.png>
+Package pdftex.def Info: ./normalpadrao/normal77.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal77.png> <a0,fr53>
+<./normalpadrao/normal78.png, id=488, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal78.png Graphic file (type png)
+<use ./normalpadrao/normal78.png>
+Package pdftex.def Info: ./normalpadrao/normal78.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal78.png> <a0,fr54>
+<./normalpadrao/normal79.png, id=497, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal79.png Graphic file (type png)
+<use ./normalpadrao/normal79.png>
+Package pdftex.def Info: ./normalpadrao/normal79.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal79.png> <a0,fr55>
+<./normalpadrao/normal80.png, id=506, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal80.png Graphic file (type png)
+<use ./normalpadrao/normal80.png>
+Package pdftex.def Info: ./normalpadrao/normal80.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal80.png> <a0,fr56>
+<./normalpadrao/normal81.png, id=515, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal81.png Graphic file (type png)
+<use ./normalpadrao/normal81.png>
+Package pdftex.def Info: ./normalpadrao/normal81.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal81.png> <a0,fr57>
+<./normalpadrao/normal82.png, id=524, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal82.png Graphic file (type png)
+<use ./normalpadrao/normal82.png>
+Package pdftex.def Info: ./normalpadrao/normal82.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal82.png> <a0,fr58>
+<./normalpadrao/normal83.png, id=533, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal83.png Graphic file (type png)
+<use ./normalpadrao/normal83.png>
+Package pdftex.def Info: ./normalpadrao/normal83.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal83.png> <a0,fr59>
+<./normalpadrao/normal84.png, id=542, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal84.png Graphic file (type png)
+<use ./normalpadrao/normal84.png>
+Package pdftex.def Info: ./normalpadrao/normal84.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal84.png> <a0,fr60>
+<./normalpadrao/normal85.png, id=551, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal85.png Graphic file (type png)
+<use ./normalpadrao/normal85.png>
+Package pdftex.def Info: ./normalpadrao/normal85.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal85.png> <a0,fr61>
+<./normalpadrao/normal86.png, id=560, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal86.png Graphic file (type png)
+<use ./normalpadrao/normal86.png>
+Package pdftex.def Info: ./normalpadrao/normal86.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal86.png> <a0,fr62>
+<./normalpadrao/normal87.png, id=569, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal87.png Graphic file (type png)
+<use ./normalpadrao/normal87.png>
+Package pdftex.def Info: ./normalpadrao/normal87.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal87.png> <a0,fr63>
+<./normalpadrao/normal88.png, id=578, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal88.png Graphic file (type png)
+<use ./normalpadrao/normal88.png>
+Package pdftex.def Info: ./normalpadrao/normal88.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal88.png> <a0,fr64>
+<./normalpadrao/normal89.png, id=587, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal89.png Graphic file (type png)
+<use ./normalpadrao/normal89.png>
+Package pdftex.def Info: ./normalpadrao/normal89.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal89.png> <a0,fr65>
+<./normalpadrao/normal90.png, id=596, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal90.png Graphic file (type png)
+<use ./normalpadrao/normal90.png>
+Package pdftex.def Info: ./normalpadrao/normal90.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal90.png> <a0,fr66>
+<./normalpadrao/normal91.png, id=605, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal91.png Graphic file (type png)
+<use ./normalpadrao/normal91.png>
+Package pdftex.def Info: ./normalpadrao/normal91.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal91.png> <a0,fr67>
+<./normalpadrao/normal92.png, id=614, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal92.png Graphic file (type png)
+<use ./normalpadrao/normal92.png>
+Package pdftex.def Info: ./normalpadrao/normal92.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal92.png> <a0,fr68>
+<./normalpadrao/normal93.png, id=623, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal93.png Graphic file (type png)
+<use ./normalpadrao/normal93.png>
+Package pdftex.def Info: ./normalpadrao/normal93.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal93.png> <a0,fr69>
+<./normalpadrao/normal94.png, id=632, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal94.png Graphic file (type png)
+<use ./normalpadrao/normal94.png>
+Package pdftex.def Info: ./normalpadrao/normal94.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal94.png> <a0,fr70>
+<./normalpadrao/normal95.png, id=641, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal95.png Graphic file (type png)
+<use ./normalpadrao/normal95.png>
+Package pdftex.def Info: ./normalpadrao/normal95.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal95.png> <a0,fr71>
+<./normalpadrao/normal96.png, id=650, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal96.png Graphic file (type png)
+<use ./normalpadrao/normal96.png>
+Package pdftex.def Info: ./normalpadrao/normal96.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal96.png> <a0,fr72>
+<./normalpadrao/normal97.png, id=659, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal97.png Graphic file (type png)
+<use ./normalpadrao/normal97.png>
+Package pdftex.def Info: ./normalpadrao/normal97.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal97.png> <a0,fr73>
+<./normalpadrao/normal98.png, id=668, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal98.png Graphic file (type png)
+<use ./normalpadrao/normal98.png>
+Package pdftex.def Info: ./normalpadrao/normal98.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal98.png> <a0,fr74>
+<./normalpadrao/normal99.png, id=677, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal99.png Graphic file (type png)
+<use ./normalpadrao/normal99.png>
+Package pdftex.def Info: ./normalpadrao/normal99.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal99.png> <a0,fr75>
+<./normalpadrao/normal100.png, id=686, 501.875pt x 250.9375pt>
+File: ./normalpadrao/normal100.png Graphic file (type png)
+<use ./normalpadrao/normal100.png>
+Package pdftex.def Info: ./normalpadrao/normal100.png  used on input line 18.
+(pdftex.def)             Requested size: 276.00105pt x 138.00838pt.
+ <./normalpadrao/normal100.png> <a0,fr76>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 26.
+
+Overfull \hbox (10.3304pt too wide) in paragraph at lines 26--72
+ [] 
+ []
+
+[1
+
+{C:/Users/MABENLA/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(animacao.aux) ) 
+Here is how much of TeX's memory you used:
+ 5339 strings out of 481174
+ 93680 string characters out of 2912412
+ 374105 words of memory out of 3000000
+ 20768 multiletter control sequences out of 15000+200000
+ 548940 words of font info for 53 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 49i,6n,59p,234b,383s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on animacao.pdf (1 page, 333579 bytes).
+PDF statistics:
+ 739 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1838 words of extra memory for PDF output out of 10000 (max. 10000000)
+

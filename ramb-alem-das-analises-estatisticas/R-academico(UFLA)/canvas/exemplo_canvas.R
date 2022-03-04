@@ -1,0 +1,3 @@
+library(tcltk)
+
+demo("tkcanvas")

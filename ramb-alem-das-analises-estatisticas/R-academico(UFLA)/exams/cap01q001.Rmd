@@ -1,0 +1,23 @@
+Question
+========
+
+Assinale a afirmação verdadeira.
+
+Answerlist
+----------
+* Estatística Inferencial compreende um conjunto de técnicas destinadas à sintese de dados numéricos
+* O processo ou estudo utilizado para se medir as características de parte dos elementos de uma dada população recebe o nome de censo
+* A Estatística Descritiva compreende as técnicas por meio das quais coletamos, organizamos, tabulamos e descrevemos os dados de uma população ou amostra
+* Uma população só pode ser caracterizada se forem observadas os seus componentes por meio da amostra
+* Parâmetros são medidas características de grupos, determinadas por meio de uma amostra aleatória
+
+Solution
+========
+A Estatística Descritiva compreende as técnicas por meio das quais coletamos, organizamos, tabulamos e descrevemos os dados de uma população ou amostra
+
+
+Meta-information
+================
+extype: schoice
+exsolution: 00100
+exname: Cap01

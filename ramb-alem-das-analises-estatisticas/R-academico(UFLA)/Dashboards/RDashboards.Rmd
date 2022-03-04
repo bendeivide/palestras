@@ -1,0 +1,43 @@
+---
+title: "Dashboard com o pacote midrangeMCP (Programa de Verão 2022 - DES/UFLA)"
+author: "Ben Dêivide (DEFIM/UFSJ)"
+date: "07-03-2022"
+output: flexdashboard::flex_dashboard
+runtime: shiny
+---
+
+```{r global, include=FALSE}
+# load data in 'global' chunk so it can be shared by all users of the dashboard
+library(midrangeMCP)
+dados <- read.table("alfafa.txt", header = T)
+anava <- aov(PROD ~ TRAT + BLOCO, data = dados)
+res <- MRtest(anava, "TRAT")
+```
+
+Variáveis de entrada {.sidebar}
+-----------------------------------------------------------------------
+
+Exemplo de utilização do pacote `midrangeMCP`
+
+```{r}
+selectInput("mcp", label = "Teste:",
+            choices = c("MGM", "MGR", "SNKM", "TM", "all"), selected = "MGM")
+
+selectInput("sentido", label = "Barras horizontais:",
+            choices = c(FALSE, TRUE), selected = TRUE)
+selectInput("cor", label = "Cor das barras:",
+            choices = c("colorido", "monocromatico"), selected = "colorido")
+```
+
+Column
+-----------------------------------------------------------------------
+
+### Gráfico de barras
+
+```{r}
+renderPlot({
+  if (input$cor == "colorido") cor <- heat.colors(4)
+  if (input$cor == "monocromatico") cor <- gray.colors(4)
+  MRbarplot(res, MCP = input$mcp, horiz = input$sentido, col = cor)
+})
+```
